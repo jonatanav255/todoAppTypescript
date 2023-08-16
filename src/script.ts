@@ -34,7 +34,7 @@ listContainer.addEventListener(
   false
 );
 function saveData() {
-  localStorage.set("data", listContainer.innerHTML);
+  localStorage.setItem("data", listContainer.innerHTML);
 }
 
 function showTask() {
